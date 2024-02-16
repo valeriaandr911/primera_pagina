@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--Descripcion de la pagina-->
+    <!--Descripcion de la pagina-->
 
-<meta name="description" content="En este curso de maquillaje aprenderás a maquillarte, así como, maquillar de forma profesional a otras personas para eventos o cualquier tipo de ocación">
+    <meta name="description"
+        content="En este curso de maquillaje aprenderás a maquillarte, así como, maquillar de forma profesional a otras personas para eventos o cualquier tipo de ocación">
 
-<!--Tutor de la pagina-->
-<meta name="author" content="Valeria Ramos">
+    <!--Tutor de la pagina-->
+    <meta name="author" content="Valeria Ramos">
 
-<!--Fecha de edicion de la pagina-->
-<meta name="date" content="26/01/2024">
+    <!--Fecha de edicion de la pagina-->
+    <meta name="date" content="26/01/2024">
 
-<!--Palabras claves que mejoran el SEO-->
-<meta name="keywords" content="curso, maquillaje, curso maquillaje, curso online, diplomado "> 
+    <!--Palabras claves que mejoran el SEO-->
+    <meta name="keywords" content="curso, maquillaje, curso maquillaje, curso online, diplomado ">
 
-<!--Icono de la pagina-->
-<link rel="icon" href="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Makeup-256.png">
+    <!--Icono de la pagina-->
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Makeup-256.png">
 
     <title>Cursos de maquillaje</title>
     <link rel="stylesheet" href="/style.css">
@@ -26,94 +28,109 @@
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <header>
         <nav>
-            <img src="/assets/Frame.svg" alt="Descripcion grafica de la empresa">
-            <!--UL es una lista-->
-            <ul>
-                <!--Li es un elemento de la lista-->
-                <li>Inicio</li>
-                <li>Categoria</li>
-                <li>Sobre nosotros</li>
-            </ul>
-            <button>Contactanos</button>
+            <div class="header"><img src="/assets/Frame.svg" alt="Descripcion grafica de la empresa">
+                <ul class="opciones-header">
+                    <li>Inicio</li>
+                    <li>Categoria</li>
+                    <li>Sobre nosotros</li>
+                </ul>
+                <button>Contactanos</button>
+            </div>
         </nav>
     </header>
     <main>
         <section class="jumbotron">
-            <h1>
-                ¡Consulta nuestros cursos de maquillaje y obten tu diplomado!
-            </h1>
-            <img src="/assets/jimmy-fermin-bqe0J0b26RQ-unsplash-removebg-preview 1 (2).png" alt="Mujer con cabello recogido y maquillada mirando a la camara">
+            <img src="/assets/jimmy-fermin-bqe0J0b26RQ-unsplash-removebg-preview 1 (2).png"
+                alt="Mujer con cabello recogido y maquillada mirando a la camara">
+            <h1>¡Consulta nuestros cursos de maquillaje y obten tu diplomado!</h1>
         </section>
-        <div>
-          <h2>¿Qué aprenderas? </h2>
-          <p class="parrafo desde cero">Aprenderas desde cero todas las técnicas que nuestros profesores expertos en el tema tienen para brindarte. ¡Conoce todos los paquetes que tenemos disponibles y selecciona el que más se adapte a ti!. </p>
-          <button>Ver paquetes</button>
-        </div>
 
-        <div>
-            <h2>Nuestros profesores</h2>
-            <p class="parrafo">Tenemos unos de los mejores maestros para aprender todas las técnicas mundiales de maquillaje, certificados en +10 paises para brindarte la mejor experiencia </p>
-            <button>Ver profesores</button>
-        </div>
+        <section class="info">
+            <div class="aprender">
+                <h2>¿Qué aprenderas? </h2>
+                <p class="parrafo desde cero">Aprenderas desde cero todas las técnicas que nuestros profesores expertos
+                    en el tema tienen para brindarte. ¡Conoce todos los paquetes que tenemos disponibles y selecciona el
+                    que más se adapte a ti!. </p>
+                <button>Ver paquetes</button>
+            </div>
 
-        <div>
-            <h2>Curso online </h2>
-            <p>Si no estas en el pais o en el estado y quieres pertenecer y aprender de los mejores, no debes preocuparte porque ya contamos con cursos en linea, donde puedes inscribirte desde cualquier parte del mundo </p>
-            <button>Ver cursos</button>
-        </div>
+            <div class="profesores">
+                <h2>Nuestros profesores</h2>
+                <p class="parrafo">Tenemos unos de los mejores maestros para aprender todas las técnicas mundiales de
+                    maquillaje, certificados en +10 paises para brindarte la mejor experiencia </p>
+                <button>Ver profesores</button>
+            </div>
+
+            <div class="cursos">
+                <h2>Curso online </h2>
+                <p>Si no estas en el pais o en el estado y quieres pertenecer y aprender de los mejores, no debes
+                    preocuparte porque ya contamos con cursos en linea, donde puedes inscribirte desde cualquier parte
+                    del mundo </p>
+                <button>Ver cursos</button>
+            </div>
+        </section>
+
+
+    </main>
+    <section class="registrar">
         <div>
             <h3>Registra tu correo electrónico para promociones, noticias y mucho más</h3>
         </div>
-    </main>
-    <section>
         <form action="/" method="get">
             <input type="text">
             <button type="submit"></button>
         </form>
-        
+
         <form action="https://reqres.in/api/login" method="form"></form>
     </section>
-     
+
     <footer>
         <nav>
-            <div> 
-                <h3>Sobre nosotros</h3>
-                <ul>
-                    <li><a href="/sobrenosotros.html">Sobre nosotros</a></li>
-                    <li><a href="/colaboraciones.html">Colaboraciones</a></li>
-                    <li><a href="/novedades.html">Novedades</a></li>
-                </ul>
-            </div>
-            <div> 
-                <h3>Productos</h3>
-                <ul>
-                    <li>Nuevos productos</li>
-                    <li>Descuentos</li>
-                    <li>Cursos</li>
-                </ul>
-            </div>
-            <div> 
-                <h3>Compañia</h3>
-                <ul>
-                    <li>Nuestro equipo</li>
-                    <li>Se nuestro aliado</li>
-                    <li>Preguntas frecuentes</li>
-                </ul>
-            </div>
-            <div class="Redes sociales">
-                <ul>
-                    <li>
-                        <a href="https:facebook.com" target="_blank"> <img src="/assets/facebook.svg" alt="Logo de facebook"></a>
-                    </li>
-                </ul>
-            </div>
+            <section class="pie">
+                <div>
+                    <h3>Sobre nosotros</h3>
+                    <ul>
+                        <li><a href="/sobrenosotros.html">Sobre nosotros</a></li>
+                        <li><a href="/colaboraciones.html">Colaboraciones</a></li>
+                        <li><a href="/novedades.html">Novedades</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Productos</h3>
+                    <ul>
+                        <li>Nuevos productos</li>
+                        <li>Descuentos</li>
+                        <li>Cursos</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Compañia</h3>
+                    <ul>
+                        <li>Nuestro equipo</li>
+                        <li>Se nuestro aliado</li>
+                        <li>Preguntas frecuentes</li>
+                    </ul>
+                </div>
+                <div class="Redes sociales">
+                    <ul>
+                        <li>
+                            <a href="https:facebook.com" target="_blank"> <img src="/assets/facebook.svg"
+                                    alt="Logo de facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
         </nav>
-    </footer>    
+    </footer>
 </body>
+
 </html>
